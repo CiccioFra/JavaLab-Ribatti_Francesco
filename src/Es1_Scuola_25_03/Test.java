@@ -1,8 +1,6 @@
-package JavaLab_22_04_01_Lez4.in_aula.Es1_Scuola_v2;
+package Es1_Scuola_25_03;
 
 import javax.swing.*;
-
-import static JavaLab_22_04_01_Lez4.in_aula.Es1_Scuola_v2.PopolaScuola.popolaScuola;
 
 public class Test {
     public static void main(String[] args) {

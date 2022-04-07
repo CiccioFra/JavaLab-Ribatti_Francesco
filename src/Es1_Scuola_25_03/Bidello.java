@@ -1,4 +1,4 @@
-package JavaLab_22_04_01_Lez4.in_aula.Es1_Scuola_v2;
+package Es1_Scuola_25_03;
 
 /**
  * @author Francesco
@@ -10,7 +10,7 @@ public class Bidello extends Persona {
     private Integer nrBidello; // gli sarà assegnata la variabile static nrStudenti per conteggiare gli studenti creati
 
     // variabili di CLASSE con "static" visibili da tutta la classe
-    private static Integer nrBidelliCreati = 1;  // sarà assegnata alla variabile nrStudente per conteggiare gli studenti creati
+    private static Integer nrBidelliCreati = 0;  // sarà assegnata alla variabile nrStudente per conteggiare gli studenti creati
 
     /** Costruttore vuoto */
     public Bidello() {
