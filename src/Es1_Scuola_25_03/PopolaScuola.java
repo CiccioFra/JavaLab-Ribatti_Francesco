@@ -2,7 +2,17 @@ package Es1_Scuola_25_03;
 
 import javax.swing.*;
 
+/**
+ * @author Francesco Ribatti
+ * Classe per generare personale scolastico
+ */
 public class PopolaScuola {
+    /**
+     * Creazione di un Studente/Docente/Bidello
+     * Il metodo chiede all'utente di inserire valori attributo
+     * @param ruoloScelto immettere il tipo di personaggio da creare
+     * @return persona dettagliata dall'utente
+     */
     public static Persona popolaScuola(String ruoloScelto) {
         Persona persona = null;
         switch (ruoloScelto) {

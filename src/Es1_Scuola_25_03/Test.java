@@ -2,6 +2,8 @@ package Es1_Scuola_25_03;
 
 import javax.swing.*;
 
+
+
 public class Test {
     public static void main(String[] args) {
         String[] elencoRuoliDisponibili = {"Studente", "Docente", "Bidello"};
@@ -19,7 +21,9 @@ public class Test {
         String ruoloScelto = (String) JOptionPane.showInputDialog(null,
                 testoSceltaRuolo, "Scegli il tuo ruolo", 3, null, elencoRuoliDisponibili, elencoRuoliDisponibili[0]);
 
-        // crea l'oggetto Studente/Docente/Bidello dipendentemente dalla scelta dell'utente
+        /**
+         *  crea l'oggetto Studente/Docente/Bidello dipendentemente dalla scelta dell'utente
+         */
         PopolaScuola.popolaScuola(ruoloScelto);
 
         System.out.println();
