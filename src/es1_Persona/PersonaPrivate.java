@@ -61,8 +61,7 @@ public class PersonaPrivate {
         nrPersoneCreate++;
     }
 
-
-
+    @Override
     public String toString() {
         return "PersonaPrivate{" +
                 "nome='" + nome + '\'' +
