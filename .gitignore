@@ -27,3 +27,9 @@ hs_err_pid*
 
 # cartella out java
 *.out
+
+### VS Code ###
+.vscode/
+
+# Compiled class file
+*.class
